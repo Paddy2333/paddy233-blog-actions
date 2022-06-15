@@ -9,8 +9,6 @@ menus:
     link: /
   - name: 归档
     link: /archives/
-  - name: 标签
-    link: /tags/
   - name: 友链
     link: /friends/
 post:
@@ -38,7 +36,7 @@ web_analytics:
   google: UA-12345678-1
   baidu: 12345678
 footer: |
-  Footer HTML
+  Copyright © 2010 - 2022 Paddy
 friends:
   - name: 宝硕博客
     link: https://blog.baoshuo.ren/
