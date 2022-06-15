@@ -19,8 +19,7 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
       - name: Install & Build
         run: >
-          npm i
-                    
+          
           # Restore last modified time
 
           git ls-files -z | while read -d '' path; do touch -d "$(git log -1
