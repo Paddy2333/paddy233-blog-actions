@@ -17,9 +17,15 @@ jobs:
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+      - name: Add Friends Page
+        run: |
+          mkdir -p source/friends && touch source/friends/index.md
+          echo -e "---\nlayout: friends\ntitle: 友情链接\n---\n\n请前往 [renbaoshuo/Friends](https://github.com/renbaoshuo/Friends) 申请友链。\n" > source/friends/index.md
+          cat source/friends/index.md
       - name: Install & Build
         run: >
           npm install hexo-cli -g
+          
           # Restore last modified time
 
           git ls-files -z | while read -d '' path; do touch -d "$(git log -1
