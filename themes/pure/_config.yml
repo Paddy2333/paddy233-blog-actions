@@ -1,5 +1,5 @@
-favicon: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
-avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+favicon: https://www.cloudflare.com/favicon.ico
+avatar: https://www.cloudflare.com/static/180e8d9e41fd7d5a2bbad155aac1e319/Workers_hexagon_logo_125x113.svg
 katex: false
 force_https: true
 check_update: true
@@ -36,7 +36,7 @@ web_analytics:
   google: UA-12345678-1
   baidu: 12345678
 footer: |
-  Copyright © 2010 - 2022 Paddy
+  Copyright © 2020 - 2022 Paddy
 friends:
   - name: 宝硕博客
     link: https://blog.baoshuo.ren/
